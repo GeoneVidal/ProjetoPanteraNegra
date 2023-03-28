@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.actor-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card1 {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.card1:hover {
+    transform: scale(1.20);
+}
+
+.foto1 {
+    background-image: url(https://www.tnh1.com.br/fileadmin/_processed_/d/c/csm_PanteraNegraWakandaTrailer_Divulgacao_f52fc4a41b.jpeg);
+}
+
+.foto2 {
+    background-image: url(https://geekhere.com.br/wp-content/uploads/2022/11/namor.jpg);
+} 
+
+.foto3 {
+    background-image: url(https://cloud.estacaonerd.com/wp-content/uploads/2022/11/04133341/BPL1160_comp_DDO_v0237.1180_R2-scaled.jpg);
+}
+
+.foto4 {
+    background-image: url(https://portalpopline.com.br/wp-content/uploads/2022/09/pantera-negra-wakanda-para-sempre-01.jpg);
+}
+
+.foto5 {
+    background-image: url(https://recreio.uol.com.br/media/uploads/marvel/shuri-pantera-negra.jpg);
+}
+
+.foto6 {
+    background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2022/11/Black-Panther-Wakanda-Forever1-1.jpg);
+}
+
+.foto7 {
+    background-image: url(https://cdn.ome.lt/bfMAkU5fl4G2RxwjCrqqztse_3s=/1200x630/smart/extras/conteudos/namor_aE3ZK2I.png);
+}
+
+.foto8 {
+    background-image: url(https://cinepop.com.br/wp-content/uploads/2022/09/pantera-negra-2-2-1.jpg)
+}
+
+.foto9 {
+    background-image: url(http://ovelhamag.com/wp-content/uploads/2018/02/black-panther-mulheres-wakanda-570x381.jpg);
+}
+
+.foto10 {
+    background-image: url(https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/bfa5a5f5-6a89-11ed-aa6e-9587410378a2/WhatsApp-Image-2022-11-10-at-03.30.50.jpeg);
+}
+
+.foto11 {
+    background-image: url(https://ovicio.com.br/wp-content/uploads/2022/11/20221107-ovicio-pantera-negra-2-attuma-namora-cena-de-acao.jpeg);
+}
+
+.foto12 {
+    background-image: url(https://epipoca.com.br/wp-content/uploads/2022/07/Danai-Gurira-Pantera-Negra-.jpg);
+}
